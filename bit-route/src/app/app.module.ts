@@ -9,10 +9,16 @@ import { MDBBootstrapModulePro } from './typescripts/pro/index';
 import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { MDBSpinningPreloader } from './typescripts/pro/index';
+import { NavigationComponent } from './navigation/navigation.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

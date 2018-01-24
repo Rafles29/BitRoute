@@ -1,0 +1,13 @@
+
+h5 {
+    letter-spacing: 3px;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+}
+       
