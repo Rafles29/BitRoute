@@ -30,7 +30,7 @@ import { HomeComponent } from './home/home.component';
     MDBBootstrapModulePro.forRoot(),
     AgmCoreModule.forRoot({
       // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
-      apiKey: 'Your_api_key'
+      apiKey: 'AIzaSyASw4w-ybpeXHAp1netHLgkC9o04jxOvK4'
     })
   ],
   providers: [MDBSpinningPreloader],
